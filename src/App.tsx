@@ -1,7 +1,7 @@
-import { Suspense, useMemo, useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 import { Canvas } from '@react-three/fiber';
-import { Cloud, KeyboardControls, OrbitControls, PointerLockControls, Sky } from '@react-three/drei';
+import { KeyboardControls, PointerLockControls, Sky } from '@react-three/drei';
 import { Physics } from '@react-three/rapier';
 import Ground from './Ground';
 import StartScreen from './StartScreen';

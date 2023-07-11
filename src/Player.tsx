@@ -9,7 +9,6 @@ const SPEED = 5
 const direction = new THREE.Vector3()
 const frontVector = new THREE.Vector3()
 const sideVector = new THREE.Vector3()
-const rotation = new THREE.Vector3();
 
 const Player = () => {
   const ref = useRef<RapierRigidBody | null>(null!)
